@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Bangers';
+    src: url('../fonts/Bangers-Regular.ttf');
+  }
+
+html {
+    font-family: 'Bangers';
+    color: bisque;
+    background-color: darkslategrey;
+}
+
+h1 {
+    color: rgb(106, 212, 0);
+}
+
+h2 {
+    color: deeppink;
+}
+
+label::after {
+    content: ':';
+    margin-right: 1ch;
+    margin-left: 1ch;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.text-danger {
+    color: crimson;
+}
